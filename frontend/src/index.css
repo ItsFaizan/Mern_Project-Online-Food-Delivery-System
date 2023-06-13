@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.navbar-brand{
+  color: white !important;
+}
+
+h1{
+  font-size: 20px !important;
+}
+
+h2{
+  font-size: 40px !important;
+}
+
+.price{
+  position:relative;
+   left:5px; 
+   top:8px;
+}
+.row{
+  padding: 1rem;
+  text-align: center; 
+}
+
+.flex-container{
+  display: flex !important
+}
+
+.btn{
+  color: white !important;
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important; 
+}
+
+.fa-plus{
+  color: green ;
+  margin: 5px
+}
+
+.fa-minus{
+  color: red ;
+  margin : 5px
+}
+
+.fa-trash{
+  color: red;
+  font-size: large;
+}
+.edit{
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  width: 75px;
+  transition-duration: 0.4s;
+  margin:5px;
+  text-decoration: none;
+}
+  
+  .edit:hover {
+    background-color: green; 
+    color: white;
+  }
+
+  .edit1{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    width: 100px;
+    transition-duration: 0.4s;
+    margin:5px
+  }
+    
+    .edit1:hover {
+      background-color: green; 
+      color: white;
+    }
